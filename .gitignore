@@ -1,3 +1,4 @@
 zenv/
 __pycache__/
-logs/
+
+logs.log

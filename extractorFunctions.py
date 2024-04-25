@@ -1,8 +1,7 @@
 # importing required packages for Address Bar Based feature Extraction
-from urllib.parse import urlparse,urlencode, unquote
+from urllib.parse import urlparse, urlencode, unquote
 import re
 # importing required packages for Domain Based Feature Extraction
-import whois
 from datetime import datetime
 
 

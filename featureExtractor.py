@@ -42,7 +42,7 @@ def featureExtraction(url):
 
   features.append(ef.has_unicode(url)+ef.haveAtSign(url)+ef.havingIP(url))
 
-  with open('pca_model.pkl', 'rb') as file:
+  with open('model/pca_model.pkl', 'rb') as file:
     pca = pk.load(file)
 
   #converting the list to dataframe
