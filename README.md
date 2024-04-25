@@ -30,7 +30,7 @@ pip install pandas whois httpx
 pip install pycaret # It will take sometime.
 ```
 
-### Replace Domain
+### Replace Domains
 
 ```python
 if __name__ == "__main__": 
@@ -56,6 +56,19 @@ python main.py
 
 # 0 = False | 1 True
 ```
+
+---
+
+### To Run GUI
+
+```bash
+pip install flask
+
+python app.py
+```
+
+Open http://127.0.0.1:5000 in your browser!
+
 
 
 --- 
